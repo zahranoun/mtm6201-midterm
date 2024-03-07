@@ -25,6 +25,7 @@ body .wrapper {
   background-color: #ffffff;
   display: flex;
   overflow-x: auto;
+  text-transform: uppercase;
 }
 
 .nav__link {
@@ -63,15 +64,17 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 50px;
 }
 
 #main-container {
-  width: 100%;
+  text-align: center;
 }
 
 #main-container img {
-  width: 100%;
-  margin-top: 40px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 button {
@@ -82,11 +85,12 @@ button {
   padding: 15px 80px;
   font-weight: bold;
   font-size: 12px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .wrapper {
-  padding-top: 65px;
+  position: relative;
+  display: inline-block;
 }
 
 .wrapper h1 {
