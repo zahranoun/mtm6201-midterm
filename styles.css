@@ -69,6 +69,11 @@ main {
   width: 100%;
 }
 
+#main-container img {
+  width: 100%;
+  margin-top: 40px;
+}
+
 button {
   background-color: #0d65d8;
   color: white;
@@ -77,6 +82,7 @@ button {
   padding: 15px 80px;
   font-weight: bold;
   font-size: 12px;
+  margin-top: 40px;
 }
 
 .wrapper {
