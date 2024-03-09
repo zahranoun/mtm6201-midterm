@@ -72,10 +72,9 @@ main {
 }
 
 #main-container img {
+  width: 100vw; /* Make the image cover the full width of the viewport */
+  height: auto; /* Maintain aspect ratio */
   display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  margin-top: 40px;
 }
 
 button {
@@ -87,6 +86,7 @@ button {
   font-weight: bold;
   font-size: 12px;
   margin-top: 55px;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -96,10 +96,10 @@ button {
 
 .wrapper h1 {
   color: #0d65d8;
-  font-size: 24px;
+  font-size: 34px;
 }
 
 .wrapper p {
   color: #757e90;
-  font-size: 18px;
+  font-size: 28px;
 }
