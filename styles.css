@@ -111,6 +111,18 @@ button {
   font-size: 28px;
 }
 
+.logintext {
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.logintext p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #757e90;
+}
+
 /*Login*/
 .login-container {
   background-color: #fff;
