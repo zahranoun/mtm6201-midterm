@@ -83,6 +83,7 @@ main {
   width: 100vw; /* Make the image cover the full width of the viewport */
   height: auto; /* Maintain aspect ratio */
   display: block;
+  margin-top: 40px;
 }
 
 button {
