@@ -39,11 +39,28 @@
       </a>
     </nav>
     <!--Login-->
-    <div class="logintext"
+    <div class="login-container">
       <h1>Login</h1>
       <p>Get started with your journey.</p>
-      <p>Username or Email</p>
-      
+      <form action="#" method="post">
+        <label for="username">Username or Email</label>
+        <input type="text" id="username" name="username" required /><br />
+        <hr />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required /><i
+          class="fa-solid fa-eye-slash"
+        ></i
+        ><br />
+        <hr />
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+        <input type="submit" value="CONTINUE TO LOGIN" />
+      </form>
     </div>
   </body>
 </html>
