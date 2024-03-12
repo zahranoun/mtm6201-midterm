@@ -114,24 +114,21 @@ button {
 
 /*Login*/
 .login-container {
-  padding: 100px;
+  padding: 50px;
   max-width: 500px; /* Set maximum width */
   width: 100%; /* Occupy full width */
   justify-content: center;
   align-items: center;
 }
 
-.login-container body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.login-container p {
+  color: #757e90;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
-.login-container h1 {
-  margin-top: 0; /* Remove default margin */
+.form-text {
+  color: #757e90;
 }
 
 input[type="text"],
