@@ -87,6 +87,18 @@ main {
   margin-top: 40px;
 }
 
+#main-container h1 {
+  color: #0d65d8;
+  font-size: 24px;
+  padding: 10px;
+}
+
+#main-container p {
+  color: #757e90;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
 button {
   background-color: #0d65d8;
   color: white;
@@ -98,23 +110,6 @@ button {
   margin-top: 55px;
   cursor: pointer;
   width: 285px;
-}
-
-.wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.wrapper h1 {
-  color: #0d65d8;
-  font-size: 24px;
-  padding: 10px;
-}
-
-.wrapper p {
-  color: #757e90;
-  font-size: 18px;
-  padding-bottom: 50px;
 }
 
 /*Login*/
@@ -228,12 +223,6 @@ span {
   padding-top: 20px;
 }
 
-a:link,
-a:visited {
-  color: #000;
-  text-decoration: none;
-}
-
 #line {
   top: ;
 }
@@ -305,6 +294,28 @@ a:visited {
   font-size: 25px;
   position: relative; /* Make the position relative for top adjustment */
   top: -30px; /* Adjust as needed to move the price higher */
+}
+
+.location {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center the items */
+  padding: 50px; /* Adjust padding as needed */
+  background-color: transparent; /* Adjust background color as needed */
+}
+
+.location h1 {
+  margin: 0;
+  color: #333; /* Adjust text color as needed */
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: normal; /* Adjust font weight as needed */
+}
+
+.location i {
+  margin-left: 15px; /* Adjust margin as needed */
+  margin-top: 15px;
 }
 
 .profile-icon {
