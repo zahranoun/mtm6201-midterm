@@ -16,6 +16,7 @@ body .wrapper {
 
 .icon {
   position: absolute;
+  padding: 50px;
   top: 10px; /* Adjust as needed */
   left: 10px; /* Adjust as needed */
   font-size: 24px; /* Adjust as needed */
@@ -189,12 +190,132 @@ hr {
   border-top: 1px solid #ccc;
 }
 
+.name-section {
+  justify-content: center;
+  padding: 50px;
+}
+
+.name-section h1 {
+  font-weight: lighter;
+}
+
+.name-section p {
+  color: #757e90;
+  padding-top: 30px;
+}
+
+span {
+  font-weight: bolder;
+}
+
+.name-section button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 80px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 55px;
+  cursor: pointer;
+  width: 254px;
+}
+
+.name-section img {
+  padding-top: 25px;
+  width: 100%;
+}
+
+.name-section h2 {
+  padding-top: 20px;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#line {
+  top: ;
+}
+
+.dismiss {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.hr-container {
+  position: relative;
+  width: 100%;
+}
+
+.hr-left {
+  border: none;
+  height: 3px; /* Adjust as needed */
+  width: 50%;
+  background-color: #0d65d8; /* Color for the left half */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.hr-right {
+  border: none;
+  height: 1px; /* Adjust as needed */
+  width: 50%;
+  background-color: #757e90; /* Color for the right half */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.price-container {
+  position: relative;
+  text-align: right;
+}
+
+.price-container p {
+  text-align: left;
+}
+
+.original-price {
+  color: #757e90; /* Color of the original price */
+  font-size: 20px; /* Adjust font size as needed */
+  position: relative; /* Make the position relative for top adjustment */
+  top: -30px; /* Adjust as needed to move the price higher */
+}
+
+.original-price::before {
+  content: "";
+  position: absolute;
+  text-decoration: none;
+  top: 100%;
+  left: 0;
+  width: 10px;
+  height: 1px;
+  background-color: #333; /* Color of the line */
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.updated-price {
+  color: #0d65d8;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative; /* Make the position relative for top adjustment */
+  top: -30px; /* Adjust as needed to move the price higher */
+}
+
 .profile-icon {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #ccc;
+  position: absolute;
+  top: 60px;
+  right: 40px;
 }
 
 .profile-icon img {
