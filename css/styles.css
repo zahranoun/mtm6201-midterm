@@ -496,3 +496,46 @@ span {
 .material-symbols-outlined {
   float: right;
 }
+
+@media only screen and (min-width: 760px) {
+  /* Adjustments for desktop */
+
+  body .wrapper {
+    max-width: 1400px; /* Adjust as needed */
+  }
+
+  body,
+  html {
+    font-size: 18px; /* Adjust as needed */
+  }
+
+  main {
+    padding: 100px; /* Adjust as needed */
+  }
+
+  button,
+  input[type="submit"] {
+    padding: 20px 100px; /* Adjust as needed */
+    font-size: 16px; /* Adjust as needed */
+    margin-top: 60px; /* Adjust as needed */
+  }
+
+  .profile-icon {
+    top: 80px; /* Adjust as needed */
+    right: 80px; /* Adjust as needed */
+  }
+
+  .support-btn {
+    bottom: 100px; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translateX(-50%); /* Center horizontally */
+  }
+
+  .search-container {
+    padding: 100px; /* Adjust as needed */
+  }
+
+  #searchInput {
+    width: 80%; /* Adjust as needed */
+  }
+}
