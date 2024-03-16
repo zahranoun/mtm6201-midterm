@@ -136,6 +136,10 @@ button:hover {
   padding-bottom: 50px;
 }
 
+.line {
+  margin-bottom: 30px;
+}
+
 .form-text {
   color: #757e90;
 }
@@ -143,7 +147,7 @@ button:hover {
 input[type="text"],
 input[type="password"] {
   width: calc(100% - 20px); /* Subtract padding from width */
-  padding-top: 20px;
+  margin-top: 15px;
   font-size: 20px;
   padding-bottom: 25px;
   border: 1px solid #ccc;
@@ -213,6 +217,10 @@ hr {
 .name-section h1 {
   font-weight: lighter;
   padding-top: 50px;
+}
+
+.name-section h2 {
+  margin-bottom: 20px;
 }
 
 .name-section p {
