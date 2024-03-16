@@ -18,18 +18,19 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <main>
-    <!--Location-->
-    <div class="location">
-      <h1>San Francisco</h1>
-      <i class="fa-sharp fa-solid fa-caret-down"></i>
-    </div>
-    <!--Profile Icon-->
-    <div class="profile-icon">
-      <img src="images/profile.png" alt="Profile Icon" />
-    </div>
-  </main>
   <body>
+    <main>
+      <!--Location-->
+      <div class="location">
+        <h1>San Francisco</h1>
+        <i class="fa-sharp fa-solid fa-caret-down"></i>
+      </div>
+      <!--Profile Icon-->
+      <div class="profile-icon">
+        <img src="images/profile.png" alt="Profile Icon" />
+      </div>
+    </main>
+
     <!--Search Bar-->
     <div class="search-container">
       <div class="search-input-wrapper">
@@ -37,51 +38,54 @@
         <i class="fa-solid fa-magnifying-glass nav__icon search-icon"></i>
       </div>
       <!--Recent Searches-->
-      <ul id="searchResults">
-        <p>Recently Searched</p>
-        <!--First Search-->
-        <li>
-          Ghana Residential Fund
-          <span class="material-symbols-outlined"> north_east </span>
-        </li>
-        <!--Second Search-->
-        <li>
-          South Africa<span class="material-symbols-outlined">
-            north_east
-          </span>
-        </li>
-        <!--Third Search-->
-        <li>
-          Malnourishment<span class="material-symbols-outlined">
-            north_east
-          </span>
-        </li>
-        <!--Fourth Search-->
-        <li>
-          Nigeria<span class="material-symbols-outlined"> north_east </span>
-        </li>
-      </ul>
+      <div>
+        <ul id="searchResults">
+          <p>Recently Searched</p>
+          <!--First Search-->
+          <li>
+            Ghana Residential Fund
+            <span class="material-symbols-outlined"> north_east </span>
+          </li>
+          <!--Second Search-->
+          <li>
+            South Africa<span class="material-symbols-outlined">
+              north_east
+            </span>
+          </li>
+          <!--Third Search-->
+          <li>
+            Malnourishment<span class="material-symbols-outlined">
+              north_east
+            </span>
+          </li>
+          <!--Fourth Search-->
+          <li>
+            Nigeria<span class="material-symbols-outlined"> north_east </span>
+          </li>
+        </ul>
+      </div>
     </div>
+
+    <!--Navigation-->
+    <footer>
+      <nav class="nav">
+        <a href="home.html" class="nav__link">
+          <i class="fa-solid fa-house nav__icon"></i>
+          <span class="nav__text">Home</span>
+        </a>
+        <a href="charities.html" class="nav__link">
+          <i class="fa-solid fa-heart nav__icon"></i>
+          <span class="nav__text">Charities</span>
+        </a>
+        <a href="explore.html" class="nav__link nav__link--active">
+          <i class="fa-solid fa-magnifying-glass nav__icon"></i>
+          <span class="nav__text">Explore</span>
+        </a>
+        <a href="profile.html" class="nav__link">
+          <i class="fa-solid fa-user nav__icon"></i>
+          <span class="nav__text">Profile</span>
+        </a>
+      </nav>
+    </footer>
   </body>
-  <!--Navigation-->
-  <footer>
-    <nav class="nav">
-      <a href="home.html" class="nav__link">
-        <i class="fa-solid fa-house nav__icon"></i>
-        <span class="nav__text">Home</span>
-      </a>
-      <a href="charities.html" class="nav__link">
-        <i class="fa-solid fa-heart nav__icon"></i>
-        <span class="nav__text">Charities</span>
-      </a>
-      <a href="explore.html" class="nav__link nav__link--active">
-        <i class="fa-solid fa-magnifying-glass nav__icon"></i>
-        <span class="nav__text">Explore</span>
-      </a>
-      <a href="profile.html" class="nav__link">
-        <i class="fa-solid fa-user nav__icon"></i>
-        <span class="nav__text">Profile</span>
-      </a>
-    </nav>
-  </footer>
 </html>
