@@ -119,6 +119,39 @@ main {
   font-weight: lighter;
 }
 
+/* Animation using the animation property */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#main-container {
+  animation: slideInFromLeft 1s ease-in-out forwards;
+}
+
+/* Animation using keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  animation: pulse 2s infinite alternate;
+}
+
 button {
   background-color: #0d65d8;
   color: white;
@@ -210,6 +243,7 @@ input[type="submit"] {
   margin-top: 50px;
   cursor: pointer;
   width: 380px;
+  animation: pulse 2s infinite alternate;
 }
 
 input[type="submit"]:hover {
