@@ -5,11 +5,13 @@
   scroll-behavior: smooth;
 }
 
+/* Default font family for the entire document */
 body,
 html {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Wrapper for limiting content width */
 body .wrapper {
   max-width: 1200px;
 }
@@ -27,13 +29,14 @@ body .wrapper {
 }
 
 .skip-link:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Change background color on hover */
 }
 
 .skip-link:focus {
-  top: 0;
+  top: 0; /* Move the skip link to the top when focused */
 }
 
+/* Navigation styles */
 .icon {
   position: absolute;
   padding: 50px;
@@ -42,8 +45,7 @@ body .wrapper {
   font-size: 24px; /* Adjust as needed */
 }
 
-/*Navigation*/
-
+/* Navigation bar */
 .nav {
   position: fixed;
   bottom: 0;
@@ -56,6 +58,7 @@ body .wrapper {
   text-transform: uppercase;
 }
 
+/* Navigation link */
 .nav__link {
   display: flex;
   flex-direction: column;
@@ -74,11 +77,11 @@ body .wrapper {
 }
 
 .nav__link:hover {
-  background-color: #eeeeee;
+  background-color: #eeeeee; /* Change background color on hover */
 }
 
 .nav__link--active {
-  color: #0d65d8;
+  color: #0d65d8; /* Set color for active link */
 }
 
 .nav__icon {
@@ -86,7 +89,7 @@ body .wrapper {
   padding: 10px;
 }
 
-/*Index HTML Page*/
+/*Index HTML Page Styles*/
 
 main {
   display: flex;
@@ -119,7 +122,7 @@ main {
   font-weight: lighter;
 }
 
-/* Animation using the animation property */
+/* Animation styles using keyframes */
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -148,6 +151,7 @@ main {
   }
 }
 
+/* Button styles */
 button {
   animation: pulse 2s infinite alternate;
 }
@@ -166,12 +170,13 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Change background color on hover */
 }
 
 @media screen and (min-width: 760px) {
+  /* Adjustments for larger screens */
   #main-container img {
-    width: 50vw;
+    width: 50vw; /* Reduce image width */
   }
 
   #main-container h1 {
@@ -189,7 +194,8 @@ button:hover {
   }
 }
 
-/*Login*/
+/*Login Styles*/
+/* Container for login content */
 .login-container {
   padding: 50px;
   max-width: 500px; /* Set maximum width */
@@ -199,25 +205,30 @@ button:hover {
   padding-top: 0px;
 }
 
+/* Heading style for login page */
 .login-container h1 {
   font-weight: normal;
   font-size: 25px;
 }
 
+/* Paragraph style for login page */
 .login-container p {
   color: #757e90;
   padding-top: 10px;
   padding-bottom: 50px;
 }
 
+/* Style for a line element */
 .line {
   margin-bottom: 30px;
 }
 
+/* Text style for forms */
 .form-text {
   color: #757e90;
 }
 
+/* Input fields for text and password */
 input[type="text"],
 input[type="password"] {
   width: calc(100% - 20px); /* Subtract padding from width */
@@ -230,6 +241,7 @@ input[type="password"] {
   border-style: none;
 }
 
+/* Submit button style */
 input[type="submit"] {
   background-color: #0d65d8;
   color: white;
@@ -247,15 +259,18 @@ input[type="submit"] {
   animation: pulse 2s infinite alternate;
 }
 
+/* Hover effect for submit button */
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
+/* Placeholder text color */
 input::placeholder {
   color: #000;
   font-size: 20px;
 }
 
+/* Container for 'remember me' and 'forgot password' */
 .remember-forgot {
   display: flex;
   justify-content: space-between;
@@ -263,53 +278,63 @@ input::placeholder {
   margin-top: 10px;
 }
 
+/* Container for 'remember me' checkbox */
 .remember-me {
   display: flex;
   align-items: center;
 }
 
+/* Checkbox style */
 input[type="checkbox"] {
   margin-right: 5px;
 }
 
+/* Style for 'forgot password' link */
 .forgot-password {
   text-decoration: none;
   color: #333;
 }
 
+/* Horizontal line separator style */
 hr {
   margin: 10px 0;
   border: none;
   border-top: 1px solid #ccc;
 }
 
+/* Media query for screens with a minimum width of 760px */
 @media screen and (min-width: 760px) {
 }
 
-/*Charities Card*/
-
+/*Charities Card Styles*/
+/* Styles for the container of charity card content */
 .name-section {
   padding: 50px;
 }
 
+/* Heading style for the charity card */
 .name-section h1 {
   font-weight: lighter;
   padding-top: 50px;
 }
 
+/* Subheading style for the charity card */
 .name-section h2 {
   margin-bottom: 20px;
 }
 
+/* Paragraph style for the charity card */
 .name-section p {
   color: #757e90;
   padding-top: 30px;
 }
 
+/* Style for spans */
 span {
   font-weight: bolder;
 }
 
+/* Style for buttons within the charity card */
 .name-section button {
   border: none;
   border-radius: 5px;
@@ -320,40 +345,48 @@ span {
   width: auto;
 }
 
+/* Container for buttons within the charity card */
 .button-container {
   display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
 }
 
+/* Image style within the charity card */
 .name-section img {
   padding-top: 25px;
   width: 100%;
 }
 
+/* Subheading style within the charity card */
 .name-section h2 {
   padding-top: 20px;
   font-weight: normal;
 }
 
+/* Subtext style within the charity card */
 .sub-text {
   margin-top: 50px;
 }
 
+/* Dismiss button style */
 .dismiss {
   background-color: #ffffff;
   color: #000;
 }
 
+/* Hover effect for dismiss button */
 .dismiss:hover {
   color: #fff;
 }
 
+/* Container for horizontal rule */
 .hr-container {
   position: relative;
   width: 100%;
 }
 
+/* Style for left half of the horizontal rule */
 .hr-left {
   border: none;
   height: 3px; /* Adjust as needed */
@@ -365,6 +398,7 @@ span {
   left: 0;
 }
 
+/* Style for right half of the horizontal rule */
 .hr-right {
   border: none;
   height: 1px; /* Adjust as needed */
@@ -376,15 +410,18 @@ span {
   right: 0;
 }
 
+/* Container for price information */
 .price-container {
   position: relative;
   text-align: right;
 }
 
+/* Style for price paragraphs */
 .price-container p {
   text-align: left;
 }
 
+/* Style for original price */
 .original-price {
   color: #757e90; /* Color of the original price */
   font-size: 20px; /* Adjust font size as needed */
@@ -392,6 +429,7 @@ span {
   top: -30px; /* Adjust as needed to move the price higher */
 }
 
+/* Style for pseudo-element before original price */
 .original-price::before {
   content: "";
   position: absolute;
@@ -404,6 +442,7 @@ span {
   z-index: -1;
 }
 
+/* Style for updated price */
 .updated-price {
   color: #0d65d8;
   text-decoration: none;
@@ -412,6 +451,7 @@ span {
   top: -30px; /* Adjust as needed to move the price higher */
 }
 
+/* Container for location information */
 .location {
   position: absolute;
   top: 0;
@@ -422,18 +462,21 @@ span {
   background-color: transparent; /* Adjust background color as needed */
 }
 
+/* Styles for location heading */
 .location h1 {
   margin: 0;
-  color: #333; /* Adjust text color as needed */
-  font-size: 24px; /* Adjust font size as needed */
-  font-weight: normal; /* Adjust font weight as needed */
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
 }
 
+/* Styles for icons within location */
 .location i {
-  margin-left: 15px; /* Adjust margin as needed */
+  margin-left: 15px;
   margin-top: 15px;
 }
 
+/* Styles for profile icon */
 .profile-icon {
   width: 50px;
   height: 50px;
@@ -445,12 +488,14 @@ span {
   right: 40px;
 }
 
+/* Styles for image inside profile icon */
 .profile-icon img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* Styles for profile container */
 .profile-container {
   position: absolute;
   left: 40px;
@@ -459,22 +504,25 @@ span {
   align-items: center;
 }
 
+/* Media query for screens with a minimum width of 760px */
 @media screen and (min-width: 760px) {
+  /* Styles for name section within the media query */
   .name-section {
     padding: 50px 100px;
   }
 
+  /* Styles for image inside name section within the media query */
   .name-section img {
     width: 50%;
   }
 
+  /* Styles for horizontal rule container within the media query */
   .hr-container {
     width: 50%;
   }
 }
 
-/*Secondary Profile Icon for donation.html*/
-
+/* Styles for secondary profile icon for donation.html */
 .profile-icon2 {
   width: 50px;
   height: 50px;
@@ -484,18 +532,21 @@ span {
   margin-right: 10px; /* Add margin between icon and name */
 }
 
+/* Styles for image inside secondary profile icon */
 .profile-icon2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* Styles for profile name */
 .profile-name {
   font-size: 16px;
   white-space: nowrap;
   font-weight: normal; /* Prevents name from wrapping */
 }
 
+/* Styles for description */
 .description {
   padding: 50px; /* Add spacing between name and description */
   font-size: 14px;
@@ -503,6 +554,7 @@ span {
   color: #666; /* Example color */
 }
 
+/* Styles for support button */
 .support-btn {
   position: sticky;
   bottom: 50px; /* Adjust as needed */
@@ -516,33 +568,36 @@ span {
   cursor: pointer;
 }
 
-/* Optional hover effect */
+/* Hover effect for support button */
 .support-btn:hover {
   background-color: #0056b3;
 }
 
-/* Optional: Style the button link */
+/* Styles for button link */
 .button-link {
   text-decoration: none;
 }
 
+/* Styles for three dotted menu */
 .dots {
   position: absolute;
   top: 60px;
   right: 40px;
 }
 
+/* Styles for search container */
 /*Search/Explore Page*/
-
 .search-container {
   position: relative;
   padding: 50px;
 }
 
+/* Styles for search input wrapper */
 .search-input-wrapper {
   position: relative;
 }
 
+/* Styles for search icon */
 .search-icon {
   position: absolute;
   top: 50%;
@@ -550,10 +605,12 @@ span {
   transform: translateY(-50%);
 }
 
+/* Styles for search input */
 .search-container input {
   color: #757e90;
 }
 
+/* Styles for search input element */
 #searchInput {
   width: 100%;
   height: 60px;
@@ -562,6 +619,7 @@ span {
   padding-left: 10px;
 }
 
+/* Styles for search results container */
 #searchResults {
   position: absolute;
   top: 90px;
@@ -572,11 +630,13 @@ span {
   border-top: none;
 }
 
+/* Styles for paragraphs within search results */
 #searchResults p {
   color: #757e90;
   font-size: 13px;
 }
 
+/* Styles for list items within search results */
 #searchResults li {
   padding: 0px;
   cursor: pointer;
@@ -584,11 +644,13 @@ span {
   font-size: 20px;
 }
 
+/* Hover effect for list items within search results */
 #searchResults li:hover {
   background-color: #ddd;
   border-radius: 5px;
 }
 
+/* Styles for material symbols outlined */
 .material-symbols-outlined {
   float: right;
 }
