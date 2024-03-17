@@ -15,13 +15,17 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <main>
+    <!--SKIP LINK-->
+    <a href="charities.html" class="skip-link" aria-label="Skip to main content"
+      >Skip to main content</a
+    >
+    <main role="main">
       <!--Back Arrow-->
-      <div class="icon">
+      <div class="icon" role="button" aria-label="Back to Charities">
         <a href="charities.html"><i class="material-icons">arrow_back</i></a>
       </div>
       <!--3-dotted Menu-->
-      <div class="dots">
+      <div class="dots" role="button" aria-label="Menu">
         <i class="fa-solid fa-ellipsis"></i>
       </div>
     </main>
@@ -44,7 +48,7 @@
       </div>
     </div>
     <!--Profile Icon And Name-->
-    <section class="info">
+    <section class="info" role="region" aria-label="Charity Information">
       <div class="profile-container">
         <div class="profile-icon2">
           <img src="images/profile2.png" alt="Profile Icon" />
@@ -64,7 +68,13 @@
         metus rutrum sit amet. Aenean ut suscipit justo.
       </p>
       <a href="login.html" class="button-link">
-        <button class="support-btn">SUPPORT THIS PROJECT</button>
+        <button
+          class="support-btn"
+          role="button"
+          aria-label="Support This Project"
+        >
+          SUPPORT THIS PROJECT
+        </button>
       </a>
     </section>
   </body>

@@ -15,15 +15,21 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
+    <!--SKIP LINK-->
+    <a href="charities.html" class="skip-link" aria-label="Skip to main content"
+      >Skip to main content</a
+    >
+    <header role="banner">
       <div class="profile-icon">
         <img src="images/profile.png" alt="Profile Icon" />
       </div>
     </header>
     <!--Introduction-->
-    <section>
+    <section role="region" aria-labelledby="introduction-heading">
       <div class="name-section">
-        <h1>Welcome, <br /><span class="person">Matthew Anderson</span></h1>
+        <h1 id="introduction-heading">
+          Welcome, <br /><span class="person">Matthew Anderson</span>
+        </h1>
         <p>
           Let’s get started by adding more information <br />to your profile.
         </p>
@@ -33,7 +39,7 @@
         </div>
         <hr />
         <!--First Charity-->
-        <div>
+        <div role="article">
           <p>Trending Charities</p>
           <img src="images/photo2.jpg" alt="Charity 1" />
           <h2>St. Loueis Welfare Org.</h2>
@@ -48,7 +54,7 @@
           </div>
         </div>
         <!--Second Charity-->
-        <div>
+        <div role="article">
           <img src="images/photo3.jpg" alt="Charity 2" />
           <h2>St. Loueis Welfare Org.</h2>
           <div class="hr-container">
@@ -64,9 +70,13 @@
       </div>
     </section>
     <!--Navigation-->
-    <footer>
-      <nav class="nav">
-        <a href="home.html" class="nav__link nav__link--active">
+    <footer role="contentinfo">
+      <nav class="nav" role="navigation">
+        <a
+          href="home.html"
+          class="nav__link nav__link--active"
+          aria-current="page"
+        >
           <i class="fa-solid fa-house nav__icon"></i>
           <span class="nav__text">Home</span>
         </a>

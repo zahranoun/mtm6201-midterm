@@ -14,6 +14,26 @@ body .wrapper {
   max-width: 1200px;
 }
 
+/*SKIP LINK*/
+.skip-link {
+  position: absolute;
+  top: -999em;
+  left: 0;
+  background-color: #0d65d8;
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:hover {
+  background-color: #0056b3;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 .icon {
   position: absolute;
   padding: 50px;
@@ -93,10 +113,10 @@ main {
   padding: 10px;
 }
 
-#main-container p {
+#main-container h2 {
   color: #757e90;
-  font-size: 18px;
   padding-bottom: 50px;
+  font-weight: lighter;
 }
 
 button {
@@ -125,7 +145,7 @@ button:hover {
     font-size: 34px;
   }
 
-  #main-container p {
+  #main-container h2 {
     font-size: 28px;
   }
 
@@ -403,6 +423,14 @@ span {
 @media screen and (min-width: 760px) {
   .name-section {
     padding: 50px 100px;
+  }
+
+  .name-section img {
+    width: 50%;
+  }
+
+  .hr-container {
+    width: 50%;
   }
 }
 

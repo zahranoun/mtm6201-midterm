@@ -19,9 +19,13 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <main>
+    <!--SKIP LINK-->
+    <a href="charities.html" class="skip-link" aria-label="Skip to main content"
+      >Skip to main content</a
+    >
+    <main role="main">
       <!--Location-->
-      <div class="location">
+      <div class="location" role="banner">
         <h1>San Francisco</h1>
         <i class="fa-sharp fa-solid fa-caret-down"></i>
       </div>
@@ -32,43 +36,57 @@
     </main>
 
     <!--Search Bar-->
-    <div class="search-container">
+    <div class="search-container" role="search">
       <div class="search-input-wrapper">
         <input type="text" id="searchInput" placeholder="Search..." />
-        <i class="fa-solid fa-magnifying-glass nav__icon search-icon"></i>
+        <i
+          class="fa-solid fa-magnifying-glass nav__icon search-icon"
+          role="img"
+          aria-hidden="true"
+        ></i>
       </div>
       <!--Recent Searches-->
       <div>
-        <ul id="searchResults">
+        <ul id="searchResults" role="list">
           <p>Recently Searched</p>
           <!--First Search-->
-          <li>
+          <li role="listitem">
             Ghana Residential Fund
-            <span class="material-symbols-outlined"> north_east </span>
+            <span class="material-symbols-outlined" role="presentation">
+              north_east
+            </span>
           </li>
           <!--Second Search-->
-          <li>
-            South Africa<span class="material-symbols-outlined">
+          <li role="listitem">
+            South Africa<span
+              class="material-symbols-outlined"
+              role="presentation"
+            >
               north_east
             </span>
           </li>
           <!--Third Search-->
-          <li>
-            Malnourishment<span class="material-symbols-outlined">
+          <li role="listitem">
+            Malnourishment<span
+              class="material-symbols-outlined"
+              role="presentation"
+            >
               north_east
             </span>
           </li>
           <!--Fourth Search-->
-          <li>
-            Nigeria<span class="material-symbols-outlined"> north_east </span>
+          <li role="listitem">
+            Nigeria<span class="material-symbols-outlined" role="presentation">
+              north_east
+            </span>
           </li>
         </ul>
       </div>
     </div>
 
     <!--Navigation-->
-    <footer>
-      <nav class="nav">
+    <footer role="contentinfo">
+      <nav class="nav" role="navigation">
         <a href="home.html" class="nav__link">
           <i class="fa-solid fa-house nav__icon"></i>
           <span class="nav__text">Home</span>
@@ -77,7 +95,11 @@
           <i class="fa-solid fa-heart nav__icon"></i>
           <span class="nav__text">Charities</span>
         </a>
-        <a href="explore.html" class="nav__link nav__link--active">
+        <a
+          href="explore.html"
+          class="nav__link nav__link--active"
+          aria-current="page"
+        >
           <i class="fa-solid fa-magnifying-glass nav__icon"></i>
           <span class="nav__text">Explore</span>
         </a>
