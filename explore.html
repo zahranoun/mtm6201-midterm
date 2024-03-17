@@ -4,29 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search</title>
+    <!-- Link to Font Awesome CSS for icons -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- Link to Google Fonts for Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <!-- Link to Google Fonts for Material Symbols Outlined -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+    <!-- Link to custom styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!--SKIP LINK-->
+    <!-- SKIP LINK for accessibility -->
     <a href="charities.html" class="skip-link" aria-label="Skip to main content"
       >Skip to main content</a
     >
     <main role="main">
-      <!--Location-->
+      <!-- Location display -->
       <div class="location" role="banner">
         <h1>San Francisco</h1>
+        <!-- Dropdown icon for location selection -->
         <i class="fa-sharp fa-solid fa-caret-down"></i>
       </div>
       <!--Profile Icon-->
@@ -35,48 +40,57 @@
       </div>
     </main>
 
-    <!--Search Bar-->
+    <!-- SEARCH BAR SECTION -->
     <div class="search-container" role="search">
       <div class="search-input-wrapper">
+        <!-- Input field for search -->
         <input type="text" id="searchInput" placeholder="Search..." />
+        <!-- Magnifying glass icon for search -->
         <i
           class="fa-solid fa-magnifying-glass nav__icon search-icon"
           role="img"
           aria-hidden="true"
         ></i>
       </div>
-      <!--Recent Searches-->
+      <!-- List of recent searches -->
       <div>
         <ul id="searchResults" role="list">
           <p>Recently Searched</p>
-          <!--First Search-->
+          <!-- First search item -->
           <li role="listitem">
             Ghana Residential Fund
+            <!-- Arrow icon to go to link -->
             <span class="material-symbols-outlined" role="presentation">
               north_east
             </span>
           </li>
-          <!--Second Search-->
+          <!-- Second search item -->
           <li role="listitem">
-            South Africa<span
+            South Africa
+            <!-- Arrow icon to go to link --><span
               class="material-symbols-outlined"
               role="presentation"
             >
               north_east
             </span>
           </li>
-          <!--Third Search-->
+          <!-- Third search item -->
           <li role="listitem">
-            Malnourishment<span
+            Malnourishment
+            <!-- Arrow icon to go to link --><span
               class="material-symbols-outlined"
               role="presentation"
             >
               north_east
             </span>
           </li>
-          <!--Fourth Search-->
+          <!-- Fourth search item -->
           <li role="listitem">
-            Nigeria<span class="material-symbols-outlined" role="presentation">
+            Nigeria
+            <!-- Arrow icon to go to link --><span
+              class="material-symbols-outlined"
+              role="presentation"
+            >
               north_east
             </span>
           </li>
@@ -84,17 +98,21 @@
       </div>
     </div>
 
-    <!--Navigation-->
+    <!-- NAVIGATION SECTION -->
     <footer role="contentinfo">
+      <!-- Navigation links -->
       <nav class="nav" role="navigation">
+        <!-- Home link -->
         <a href="home.html" class="nav__link">
           <i class="fa-solid fa-house nav__icon"></i>
           <span class="nav__text">Home</span>
         </a>
+        <!-- Charities link -->
         <a href="charities.html" class="nav__link">
           <i class="fa-solid fa-heart nav__icon"></i>
           <span class="nav__text">Charities</span>
         </a>
+        <!-- Explore link (active page) -->
         <a
           href="explore.html"
           class="nav__link nav__link--active"
@@ -103,6 +121,7 @@
           <i class="fa-solid fa-magnifying-glass nav__icon"></i>
           <span class="nav__text">Explore</span>
         </a>
+        <!-- Profile link -->
         <a href="profile.html" class="nav__link">
           <i class="fa-solid fa-user nav__icon"></i>
           <span class="nav__text">Profile</span>
