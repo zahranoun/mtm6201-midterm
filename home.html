@@ -4,92 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <!-- Link to Font Awesome CSS for icons -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- Link to Google Fonts for Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <!-- Link to custom styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!--SKIP LINK-->
+    <!-- SKIP LINK for accessibility -->
     <a href="charities.html" class="skip-link" aria-label="Skip to main content"
       >Skip to main content</a
     >
+    <!-- HEADER SECTION -->
     <header role="banner">
+      <!-- Profile icon -->
       <div class="profile-icon">
         <img src="images/profile.png" alt="Picture of Matthew Anderson" />
       </div>
     </header>
-    <!--Introduction-->
+
+    <!-- INTRODUCTION SECTION -->
     <section role="region" aria-labelledby="introduction-heading">
+      <!-- Name section -->
       <div class="name-section">
+        <!-- Title and welcome message -->
         <h1 id="introduction-heading">
           Welcome, <br /><span class="person">Matthew Anderson</span>
         </h1>
+        <!-- Introduction text -->
         <p>
           Let’s get started by adding more information <br />to your profile.
         </p>
+        <!-- Button container -->
         <div class="button-container">
+          <!-- Button to go to profile -->
           <a href="login.html"><button>GO TO PROFILE</button></a>
+          <!-- Dismiss button -->
           <a href="login.html"><button class="dismiss">DISMISS</button></a>
         </div>
+        <!-- Horizontal rule -->
         <hr />
+
+        <!-- CHARITIES SECTION -->
         <!--First Charity-->
         <div role="article">
           <p>Trending Charities</p>
+          <!-- Image of the charity -->
           <img src="images/photo2.jpg" alt="Image of Teamwork" />
+          <!-- Name of the charity -->
           <h2>St. Loueis Welfare Org.</h2>
+          <!-- Horizontal rule decoration -->
           <div class="hr-container">
             <hr class="hr-left" />
             <hr class="hr-right" />
           </div>
+          <!-- Donation details -->
           <div class="price-container">
             <p>TOTAL RAISED</p>
+            <!-- Original and updated prices -->
             <del class="original-price">$10,000</del>
             <ins class="updated-price">$12,500</ins>
           </div>
         </div>
+
         <!--Second Charity-->
         <div role="article">
+          <!-- Image of the charity -->
           <img src="images/photo3.jpg" alt="Image of Happy Family" />
+          <!-- Name of the charity -->
           <h2>St. Loueis Welfare Org.</h2>
+          <!-- Horizontal rule decoration -->
           <div class="hr-container">
             <hr class="hr-left" />
             <hr class="hr-right" />
           </div>
+          <!-- Donation details -->
           <div class="price-container">
             <p>TOTAL RAISED</p>
+            <!-- Original and updated prices -->
             <del class="original-price">$10,000</del>
             <ins class="updated-price">$12,500</ins>
           </div>
         </div>
       </div>
     </section>
-    <!--Navigation-->
+
+    <!-- NAVIGATION SECTION -->
     <footer role="contentinfo">
+      <!-- Navigation links -->
       <nav class="nav" role="navigation">
+        <!-- Home link (active page) -->
         <a
           href="home.html"
           class="nav__link nav__link--active"
           aria-current="page"
         >
+          <!-- Home icon -->
           <i class="fa-solid fa-house nav__icon"></i>
+          <!-- Text for home link -->
           <span class="nav__text">Home</span>
         </a>
+        <!-- Charities link -->
         <a href="charities.html" class="nav__link">
+          <!-- Heart icon -->
           <i class="fa-solid fa-heart nav__icon"></i>
+          <!-- Text for charities link -->
           <span class="nav__text">Charities</span>
         </a>
+        <!-- Explore link -->
         <a href="explore.html" class="nav__link">
+          <!-- Magnifying glass icon -->
           <i class="fa-solid fa-magnifying-glass nav__icon"></i>
+          <!-- Text for explore link -->
           <span class="nav__text">Explore</span>
         </a>
+        <!-- Profile link -->
         <a href="profile.html" class="nav__link">
+          <!-- User icon -->
           <i class="fa-solid fa-user nav__icon"></i>
+          <!-- Text for profile link -->
           <span class="nav__text">Profile</span>
         </a>
       </nav>

@@ -344,6 +344,10 @@ span {
   color: #000;
 }
 
+.dismiss:hover {
+  color: #fff;
+}
+
 .hr-container {
   position: relative;
   width: 100%;
