@@ -116,6 +116,26 @@ button:hover {
   background-color: #0056b3;
 }
 
+@media screen and (min-width: 760px) {
+  #main-container img {
+    width: 50vw;
+  }
+
+  #main-container h1 {
+    font-size: 34px;
+  }
+
+  #main-container p {
+    font-size: 28px;
+  }
+
+  button {
+    padding: 25px 80px;
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
 /*Login*/
 .login-container {
   padding: 50px;
@@ -206,6 +226,9 @@ hr {
   margin: 10px 0;
   border: none;
   border-top: 1px solid #ccc;
+}
+
+@media screen and (min-width: 760px) {
 }
 
 /*Charities Card*/
@@ -375,6 +398,12 @@ span {
   top: 75%;
   display: flex;
   align-items: center;
+}
+
+@media screen and (min-width: 760px) {
+  .name-section {
+    padding: 50px 100px;
+  }
 }
 
 /*Secondary Profile Icon for donation.html*/
