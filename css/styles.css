@@ -542,20 +542,24 @@ span {
     width: 50%;
   }
 
+  /* Set width to 50% for layout structuring */
   .separator {
     width: 50%;
   }
 
+  /* Sets the width to 50% for layout structuring */
   .price-container {
     width: 50%;
   }
 
+  /* Used flexbox to evenly space buttons */
   .button-container {
     width: 50%;
     display: flex;
     justify-content: space-around;
   }
 
+  /* Positions icon 62% from the left */
   .profile-icon {
     left: 62%;
   }
