@@ -34,12 +34,22 @@
         <h1>Acts.Of.Life</h1>
         <!-- Subheading -->
         <h2>Sharing made social.</h2>
-        <!-- Image with responsive attributes -->
-        <img
-          src="images/photo1.jpg"
-          alt="Kids Gathered"
-          aria-labelledby="main-container"
-        />
+        <!-- Responsive image with srcset and sizes attributes -->
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="images/photo1-375_x_440.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="images/photo1-669_x_446.jpg"
+          />
+          <img
+            src="images/photo1.jpg"
+            alt="Kids Gathered"
+            aria-labelledby="main-container"
+          />
+        </picture>
         <!-- Button linking to login page -->
         <a href="login.html" role="button" aria-label="Get Started"
           ><button>GET STARTED</button></a
