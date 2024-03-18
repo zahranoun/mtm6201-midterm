@@ -520,6 +520,20 @@ span {
   .hr-container {
     width: 50%;
   }
+
+  .separator {
+    width: 50%;
+  }
+
+  .price-container {
+    width: 50%;
+  }
+
+  .button-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* Styles for secondary profile icon for donation.html */
