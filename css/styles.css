@@ -304,6 +304,13 @@ hr {
 
 /* Media query for screens with a minimum width of 760px */
 @media screen and (min-width: 760px) {
+  .login-container {
+    margin-left: 35%;
+  }
+
+  .icon {
+    width: 65%;
+  }
 }
 
 /*Charities Card Styles*/
@@ -505,10 +512,10 @@ span {
 }
 
 /* Media query for screens with a minimum width of 760px */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 920px) {
   /* Styles for name section within the media query */
   .name-section {
-    padding: 50px 100px;
+    margin-left: 30%;
   }
 
   /* Styles for image inside name section within the media query */
@@ -533,6 +540,10 @@ span {
     width: 50%;
     display: flex;
     justify-content: space-around;
+  }
+
+  .profile-icon {
+    left: 62%;
   }
 }
 
@@ -565,14 +576,14 @@ span {
   padding: 50px; /* Add spacing between name and description */
   font-size: 14px;
   line-height: 35px;
-  color: #666; /* Example color */
+  color: #666;
 }
 
 /* Styles for support button */
 .support-btn {
   position: sticky;
-  bottom: 50px; /* Adjust as needed */
-  left: 13%; /* Adjust as needed */
+  bottom: 50px;
+  left: 13%;
   padding: 20px 20px;
   background-color: #0d65d8;
   width: 70%;
@@ -597,6 +608,27 @@ span {
   position: absolute;
   top: 60px;
   right: 40px;
+}
+
+@media screen and (min-width: 760px) {
+  .description {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .dots {
+    right: 35%;
+  }
+
+  .support-btn {
+    width: 30%;
+    left: 34%;
+  }
+
+  .profile-container {
+    left: 33%;
+    top: 78%;
+  }
 }
 
 /* Styles for search container */
@@ -667,4 +699,19 @@ span {
 /* Styles for material symbols outlined */
 .material-symbols-outlined {
   float: right;
+}
+
+@media screen and (min-width: 760px) {
+  .search-container {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .profile-icon {
+    left: 70%;
+  }
+
+  .location {
+    margin-left: 30%;
+  }
 }
