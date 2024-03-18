@@ -456,6 +456,20 @@ span {
   font-size: 25px;
   position: relative; /* Make the position relative for top adjustment */
   top: -30px; /* Adjust as needed to move the price higher */
+  animation: bounce 2s ease alternate;
+}
+
+@keyframes bounce {
+  0% {
+    top: -30px;
+  }
+  50% {
+    top: -40px; /* Adjusted for exaggeration */
+    font-size: 30px; /* Increase font size */
+  }
+  100% {
+    top: -30px;
+  }
 }
 
 /* Container for location information */
